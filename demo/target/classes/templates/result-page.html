@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат заполнения Формы</title>
+</head>
+<body>
+<h2>Результат заполнения Формы</h2>
+<p th:text="'Name: ' + ${formData.name}"></p>
+<p th:text="'Email: ' + ${formData.email}"></p>
+
+<a href="/" class="button">Вернуться на Hello</a>
+<a href="/input-form" class="button">Вернуться на input-form</a>
+</body>
+</html>
