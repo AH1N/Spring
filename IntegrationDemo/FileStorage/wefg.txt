@@ -1,0 +1,2 @@
+SmthModel(id=2, title=wefg)
+SmthModel(id=2, title=wefg)
